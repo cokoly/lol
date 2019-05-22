@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>ITService</title>
+	<link rel="SHORTCUT ICON" href="img/icon1.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+   <header>
+   	 <div class="header__logo"><p>itservice</p></div>
+   	 <nav>
+   	 	<div class="headmenu" id="myheadmenu">
+   	 		<a href="#welcome">Главная</a>
+   	 		<a href="#inf">О Нас</a>
+   	 		<a href="#service">Услуги</a>
+   	 		<a href="#">Подать заявку</a>
+   	 		<a href="#contact">Задать вопрос</a>
+   	 		<a href="#">Регистрация</a>
+   	 		<a href="#">Вход</a>
+   	 		<a href="#" id="menu" class="icon">&#9776;</a>
+   	 	</div>
+   	 </nav>
+   </header>
+<main>
+	<div class="main_welcome" id="welcome">
+	<h1> Добро пожаловать в <span class="mycompany">ITSERVICE</span></h1>
+	<p>Компания № 1 среди лучших российских поставщиков ИТ-услуг</p>
+	<p>https://melans.ru/ пример в блоке О компании</p>	
+	<p>https://codepen.io/AzZureman/pen/pvddQr форма модального меню</p>
+	<p>обратная связь пхп https://bloggood.ru/vebmasteru/prostejshaya-vsplyvayushhaya-forma-obratnoj-svyazi-dlya-sajta.html/
+	https://ruseller.com/lessons.php?id=283</p>
+	</div>		
+	<div class="wrapper"> 
+		<div class="main__about" id="inf">
+			<div class="about__left">
+				<img class="mw-100" src="img/depo.jpg" alt="site">
+			</div>
+			<div class="about__right">
+				<h1>Мы – лидер в сфере аутсорсинга 
+				персонала
+			Блок с перечислением преимуществ нужно отредактировать под адаптацию</h1>
+				<p>ITSERVICE работает на российском ИТ-рынке с 2014 года и специализируется на обеспечении бесперебойной работы компьютерной техники и автоматизации бизнеса. За 5 лет существования, мы накопили бесценный опыт по созданию и поддерживанию решений разного размера.</p>
+				<ul>
+					<span><b>Наши преимущества</b></span>
+					<li>Режим работы онлайн техподдержки 24 / 7</li>
+					<li>Мгновенное реагирование</li>
+					<li>Полное взаимопонимание</li>
+					<li>Лояльная ценновая политика</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="main__team">
+			<div class="wrapper">
+				<h1>Команда</h1>
+				<p>ITSERVICE работает на российском ИТ-рынке с 2014 года и специализируется на обеспечении бесперебойной работы компьютерной техники и автоматизации бизнеса. За 5 лет существования, мы накопили бесценный опыт по созданию и поддерживанию решений разного размера.</p>
+				<div class="team__cards">
+				<div class="card">
+					<div class="photo"></div>
+					<h4 class="name">Vlad Ivanov</h4>
+					<p class="position">Designer</p>
+					<p class="about__posotion">Do not seek to change what has come before. Seek to create
+					that</p>
+				</div>
+				<div class="card">
+					<div class="photo"></div>
+					<h4 class="name">Vlad Ivanov</h4>
+					<p class="position">Designer</p>
+					<p class="about__posotion">Do not seek to change what has come before. Seek to create
+					that</p>
+				</div>
+				<div class="card">
+					<div class="photo"></div>
+					<h4 class="name">Vlad Ivanov</h4>
+					<p class="position">Designer</p>
+					<p class="about__posotion">Do not seek to change what has come before. Seek to create
+					that</p>
+				</div>
+				<div class="card">
+					<div class="photo"></div>
+					<h4 class="name">Vlad Ivanov</h4>
+					<p class="position">Designer</p>
+					<p class="about__posotion">Do not seek to change what has come before. Seek to create
+					that</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+ 	<div class="main__services" id="service">
+ 		<div class="wrapper">
+ 			<h1>Услуги/Обслуживание</h1>
+ 			<p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</i></p>
+ 		
+ 			<div class="services__cards">
+ 				<div class="services__card">
+ 					<img src="img/mob.jpg" alt="mob">	
+ 					<h4>Обслуживание компьютеров</h4>
+ 					<ul>
+ 						<li>Ремонт компьютеров и принтеров</li>
+ 						<li>Абонентское обслуживание компьютеров</li>
+ 					</ul>
+ 				</div>
+ 				<div class="services__card">
+ 					<img src="img/mob.jpg" alt="mob">	
+ 					<h4>Обслуживание офисов</h4>
+ 					<ul>
+ 						<li>Услуги системного администратора</li>
+ 						<li>Абонентское обслуживание офисов</li>
+ 						<li>Поставка компьютерной техники и серверов</li>	
+ 						<li>Аутсорсинг офисной печати</li>
+ 					</ul>
+ 				</div>
+ 				<div class="services__card">
+ 					<img src="img/mob.jpg" alt="mob">	
+ 					<h4>Обслуживание серверов</h4>
+ 					<ul>
+ 						<li>Администрирование серверов Windows, Linux</li>
+ 						<li>Организация и сопровождение резервного
+ 						копирования</li>
+ 						<li>Настройка серверов</li>
+ 					</ul>
+ 				</div>
+ 				<div class="services__card">
+ 					<img src="img/mob.jpg" alt="mob">	
+ 					<h4>Обcлуживание телефонии</h4>
+ 					<ul>
+ 						<li>Обслуживание IP телефонии и IP-ATC</li>
+ 						<li>Обслуживание ATC</li>
+ 					</ul>
+ 				</div>
+ 				<div class="services__card">
+ 					<img src="img/mob.jpg" alt="mob">	
+ 					<h4>Поддержка сайта</h4>
+ 					<ul>
+ 						<li>Администрирование сайта</li>
+ 						<li>Поддержка доменов</li>
+ 						<li>G-Suite:Gmail, Диск и Календарь для бизнеса</li>	
+ 						<li>Администрирование серверов</li>
+ 					</ul>
+ 				</div>
+ 				<div class="services__card">
+ 					<img src="img/mob.jpg" alt="mob">	
+ 					<h4>Техподдержка пользователей</h4>
+ 					<ul>
+ 						<li>Консультирование пользователей</li>
+ 						<li>Неограниченная поддержка по телефону, email</li>
+ 						<li>Удаленное администрирование</li>
+ 						<li>G-Suite:Gmail, Диск и Календарь для бизнеса</li>
+ 					</ul>
+ 				</div>
+ 			</div>
+ 			<div class="button__block1">
+				<input type="submit" class="superbut" value="Заказать звонок">
+			</div>
+ 		</div>
+ 	</div>
+
+ 	<div class="main__clients">
+ 		<div class="wrapper">
+ 			<h1>Нас выбирают десятки крупных компаний</h1>
+
+ 			<div class="clients">
+ 				<img src="img/lacoste.png" alt="">
+ 				<img src="img/chanel.png" alt="">
+ 				<img src="img/guar.png" alt="">
+ 				<img src="img/lancome.png" alt="">
+ 				<img src="img/zara.png" alt="">
+ 			</div>
+ 		</div>
+ 	</div>
+
+
+<!-- <div class="main__testimonials">
+	<div class="wrapper">
+		<h1>our clients' testimonials</h1>
+		<p class="testimonial">This book is a treatise on the theory of ethics, very popular during the Renaissance. The first 	line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+		<p>Dean Martin, CEO Acme Inc.</p>
+	</div>
+</div> -->
+
+
+<section class="contact__form" id="contact">
+	<div class="contact__wrapper">
+		<!--<h1>Задать вопрос</h1>-->
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+		<form action="#" name="newform" method="post">
+			<div class="form__inputs">
+				<p>Имя <span class="red">*</span><input type="text"></p>
+				<p>Электронный адрес <span class="red">*</span><input type="text"></p>
+			</div>
+			<p>Сообщение<span class="red">*</span></p>
+			<textarea name="text"></textarea>
+			<div class="button__block">
+				<input type="submit" value="Отправить">
+			</div>
+		</form>
+	</div>
+</section>
+
+
+
+</main>
+
+<script src="js/script.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/buttontop.js"></script>
+<div id = "toTop" > <i><b> На Главную </b></i> </div>
+</body>
+</html>
